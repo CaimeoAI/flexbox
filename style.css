@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root
+{
+    font-size: 62.5%
+}
+
+body
+{
+    font-size: 2rem
+}
+
+/*! Container Flexbox settings */
+.container
+{
+    margin: 2rem;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border: 3px solid red;
+}
+
+.item
+{
+    margin: 10px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    color: white;    
+}
+
+.tomato
+{
+    background: tomato;
+}
+
+.green
+{
+    background: green;
+}
+
+.purple
+{
+    background: purple;
+}
+/*! Container Flexbox settings END*/
+
+/* Flexbox direction column */
+.c2
+{
+    flex-direction: column;
+}
+/* Flexbox direction column END*/
+
+/*! Flexbox flexflow nowrap */
+.c3
+{
+    flex-flow: nowrap;
+}
+
+.itemnowrap
+{
+    width: 500px;
+}
+/*! Flexbox flexflow nowrap END*/
+
+/* Flexbox justify content center */
+.c4
+{
+    justify-content: center;
+}
+/* Flexbox justify content center END */
+
+/*! Flexbox justify content space between */
+.c5
+{
+    justify-content: space-between;
+}
+/*! Flexbox justify content space between END */
+
+/* Flexbox justify content space around */
+.c6
+{
+    justify-content: space-around;
+}
+/* Flexbox justify content space around END */
+
+/*! Flexbox align items center */
+.c7
+{
+    align-items: center;
+}
+/*! Flexbox align items center END */
+
+/* Flexbox align items stretch */
+/*  TODO Stretches items with no given height to fit parent height */
+.c8
+{
+    align-items: stretch;
+}
+
+.noheight
+{
+    height: initial;
+}
+/* Flexbox align items stretch END */
