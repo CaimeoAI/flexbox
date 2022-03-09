@@ -111,3 +111,34 @@ body
     height: initial;
 }
 /* Flexbox align items stretch END */
+
+/*! Flexbox order */
+/* TODO Unassigned order for items is 0 by default */
+.order1
+{
+    order: 1;
+}
+ 
+.order3
+{
+    order: 2;
+}
+/*! Flexbox order END */
+
+/* Flexbox flexgrow */
+/* TODO Resizes grow items based on the sum of all grow values */
+.grow.tomato
+{
+    flex-grow: 10;
+}
+
+.grow.green
+{
+    flex-grow: 5;
+}
+
+.grow.purple
+{
+    flex-grow: 2;
+}
+/* Flexbox flexgrow END */
